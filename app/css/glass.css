@@ -1,0 +1,18 @@
+.glass-effect {
+  background: rgba(50, 50, 50, 0.2); /* خلفية شبه شفافة */
+  border-radius: 15px; /* زوايا دائرية */
+  backdrop-filter: blur(12px); /* تأثير ضبابي */
+  padding: 10px; /* حشوة داخلية */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); حدود شفافة */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* ظل خفيف */
+  max-width: 3000px; /* عرض العنصر */
+  margin-top: 20px; /* مسافة من الأعلى */
+  }
+  
+.glass-effect:hover {
+    transition: all 0.2s ease-in-out;
+    border: 3px solid #2d2c2c;
+    box-shadow: 0 11px 8px rgba(255, 255, 255, 0.408); /* ظل خفيف */
+    
+  }
+  
